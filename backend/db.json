@@ -10,33 +10,24 @@
       "createdAt": "2026-01-01T00:00:00Z"
     },
     {
-      "email": "quantrivien2006@gmail.com",
-      "password": "$2a$10$3CybbyzA0jPbmLIiKGFlte6N204TIev6XMoj.AQ9rDayPI3s1Rz32",
-      "displayName": "Quan tri vien",
+      "email": "mixigmaing@gmail.com",
+      "password": "$2a$10$ow9.EjSIFOvqLnXmETijp.gTQMUvDcgIHlBEyw3ubOHw.zoaAWdku",
+      "displayName": "mixi_Quản Trị Viên",
       "role": "admin",
       "avatar": "",
-      "createdAt": "2026-05-10T16:04:11.962Z",
-      "id": 3
-    },
-    {
-      "email": "quantri2006@gmail.com",
-      "password": "$2a$10$ehGU3l72wSKdYkUUCIqvd.tZ5mWeUOGfcqc5miFfnjWMMMcAekh72",
-      "displayName": "quan tri vien",
-      "role": "admin",
-      "avatar": "",
-      "createdAt": "2026-05-14T13:34:00.360Z",
-      "id": 4
+      "createdAt": "2026-05-17T01:30:04.226Z",
+      "id": 2
     }
   ],
   "comics": [
     {
       "id": 1,
-      "title": "Hành Trình Anh Hùng",
-      "slug": "hanh-trinh-anh-hung",
-      "description": "Câu chuyện về một chàng trai bình thường bất ngờ nhận được sức mạnh phi thường và bắt đầu hành trình trở thành anh hùng vĩ đại nhất thế giới.",
-      "coverImage": "assets/images/Coverimages/hanhtrinhanhhung.jpg",
-      "author": "Bùi Thế Duy",
-      "artist": "Bùi Thế Duy",
+      "title": "The Beginning After The End",
+      "slug": "anh-sang-cuoi-con-duong",
+      "description": "Hành trình tìm lại hy vọng và lẽ sống của một cô gái trẻ trong một thế giới đổ nát hậu tận thế, nơi cô phải đối mặt với muôn vàn cạm bẫy và thử thách nguy hiểm để tìm kiếm nguồn ánh sáng cứu rỗi nhân loại.",
+      "coverImage": "assets/images/cover_images/cover_2.jpg",
+      "author": "TurtleMe",
+      "artist": "Fuyuki23's Departure",
       "genres": [
         "action",
         "adventure",
@@ -51,15 +42,16 @@
     },
     {
       "id": 2,
-      "title": "Bóng Đêm Thành Phố",
-      "slug": "bong-dem-thanh-pho",
-      "description": "Trong một thành phố ngập tràn tội phạm, một thám tử bí ẩn xuất hiện mỗi đêm để bảo vệ người dân vô tội. Nhưng anh ta ẩn giấu một bí mật đen tối...",
-      "coverImage": "assets/images/CoverImages/bongdemthanhpho.jpg",
-      "author": "Lê Đức Anh",
-      "artist": "Lê Đức Anh",
+      "title": "Gacha vô hạn",
+      "slug": "gacha-vo-han",
+      "description": "Bị cuốn vào trò chơi sinh tồn tàn khốc nơi nhân loại phải chiến đấu với quái vật, Trần Phong thức tỉnh được khả năng độc nhất vô nhị: Gacha vô hạn lượt quay! Từ những trang bị cấp rác cho đến thần khí cấp tối cao, cuộc hành trình chinh phục mọi thử thách và đứng đầu thế giới của anh bắt đầu!",
+      "coverImage": "assets/images/cover_images/cover_1.jpg",
+      "author": "Naemmu19",
+      "artist": "REDICE Studio",
       "genres": [
         "action",
-        "horror"
+        "adventure",
+        "fantasy"
       ],
       "status": "ongoing",
       "rating": 4.8,
@@ -70,36 +62,37 @@
     },
     {
       "id": 3,
-      "title": "Trường Học Pháp Thuật",
-      "slug": "truong-hoc-phap-thuat",
-      "description": "Một cô gái trẻ phát hiện mình có năng lực phép thuật và được nhận vào ngôi trường pháp thuật bí ẩn nhất cả nước.",
-      "coverImage": "assets/images/CoverImages/truonghocphapthuat.jpg",
-      "author": "Phạm Gia Huy",
-      "artist": "Phạm Gia Huy",
+      "title": "One Piece",
+      "slug": "one-piece",
+      "description": "Câu chuyện kể về Monkey D. Luffy, một chàng trai trẻ tuổi với ước mơ tìm kiếm kho báu huyền thoại One Piece và trở thành Tân Vua Hải Tặc. Cùng với những người đồng đội trong băng hải tặc Mũ Rơm, Luffy bước vào những chuyến phiêu lưu kỳ thú và đầy thử thách trên Đại Hải Trình.",
+      "coverImage": "assets/images/cover_images/cover_3.jpg",
+      "author": "Eiichiro Oda",
+      "artist": "Eiichiro Oda",
       "genres": [
-        "fantasy",
+        "action",
+        "adventure",
         "comedy",
-        "slice-of-life"
+        "fantasy"
       ],
-      "status": "completed",
+      "status": "ongoing",
       "rating": 4.2,
-      "views": 89000,
+      "views": 589000,
       "totalChapters": 2,
       "createdAt": "2026-01-20T10:00:00Z",
       "updatedAt": "2026-04-15T08:00:00Z"
     },
     {
       "id": 4,
-      "title": "Vũ Trụ Song Song",
-      "slug": "vu-tru-song-song",
-      "description": "Khi một nhà khoa học vô tình mở cánh cổng đến vũ trụ song song, anh phải đối mặt với phiên bản tà ác của chính mình.",
-      "coverImage": "assets/images/CoverImages/vutrusongsong.jpg",
-      "author": "Đàm Quang Dũng",
-      "artist": "Đàm Quang Dũng",
+      "title": "One Punch Man",
+      "slug": "one-punch-man",
+      "description": "Kể về Saitama, một siêu anh hùng cực kỳ mạnh mẽ, người có thể đánh bại bất kỳ đối thủ nào chỉ bằng một cú đấm duy nhất. Chính vì sức mạnh quá vô địch này, Saitama luôn cảm thấy nhàm chán và khao khát tìm kiếm một đối thủ xứng tầm để có được cảm giác phấn khích khi chiến đấu.",
+      "coverImage": "assets/images/cover_images/cover_4.jpg",
+      "author": "ONE",
+      "artist": "Yusuke Murata",
       "genres": [
-        "sci-fi",
         "action",
-        "adventure"
+        "comedy",
+        "sci-fi"
       ],
       "status": "ongoing",
       "rating": 4.6,
@@ -110,17 +103,18 @@
     },
     {
       "id": 5,
-      "title": "Tình Yêu Mùa Hạ",
-      "slug": "tinh-yeu-mua-ha",
-      "description": "Chuyện tình lãng mạn giữa hai người trẻ gặp nhau trong một mùa hè đáng nhớ tại vùng quê yên bình.",
-      "coverImage": "assets/images/CoverImages/tinhyeumuaha.jpg",
-      "author": "Lê Đức Anh",
-      "artist": "Lê Đức Anh",
+      "title": "Naruto",
+      "slug": "naruto",
+      "description": "Kể về hành trình đầy gian khổ nhưng vô cùng kiên cường của Uzumaki Naruto, một ninja trẻ tuổi mang trong mình phong ấn của Cửu Vĩ Hồ Ly. Bị cả làng hắt hủi từ nhỏ, Naruto không ngừng nỗ lực rèn luyện với ước mơ cháy bỏng là trở thành Hokage - người đứng đầu và là ninja mạnh nhất làng Lá, để được mọi người công nhận.",
+      "coverImage": "assets/images/cover_images/cover_5.jpg",
+      "author": "Masashi Kishimoto",
+      "artist": "Masashi Kishimoto",
       "genres": [
-        "romance",
-        "slice-of-life"
+        "action",
+        "adventure",
+        "fantasy"
       ],
-      "status": "completed",
+      "status": "ongoing",
       "rating": 4.3,
       "views": 67000,
       "totalChapters": 2,
@@ -129,20 +123,20 @@
     },
     {
       "id": 6,
-      "title": "Naruto",
-      "slug": "na-ru-to",
-      "description": "Tác phẩm theo chân Uzumaki Naruto, một cậu bé ninja lớn lên trong sự xa lánh của dân làng và luôn khao khát được công nhận. ",
-      "coverImage": "assets/images/CoverImages/naruto.jpg",
-      "author": "Bùi Thế Duy",
-      "artist": "Bùi Thế Duy",
+      "title": "7 viên ngọc rồng",
+      "slug": "7-vien-ngoc-rong",
+      "description": "Dragon Ball - 7 viên ngọc rồng là bộ manga của Toriyama Akira. Tác phẩm theo chân Son Goku từ thời thơ ấu trong hành trình luyện võ và đi tìm bảy viên ngọc rồng có thể triệu hồi Rồng Thần. Bộ truyện tranh manga này gây thiện cảm rất sớm nhờ tinh thần phiêu lưu trong trẻo, hài hước và luôn chuyển động. Càng đọc, người ta càng thấy rõ sức sống của một thế giới rộng mở, nơi mỗi chặng đường đều vừa vui nhộn vừa sẵn sàng bùng lên thành thử thách lớn.",
+      "coverImage": "assets/images/cover_images/cover_6.jpg",
+      "author": "Akira Toriyama",
+      "artist": "Akira Toriyama",
       "genres": [
-        "horror",
         "action",
-        "fantasy"
+        "adventure",
+        "comedy"
       ],
-      "status": "ongoing",
-      "rating": 4.7,
-      "views": 145000,
+      "status": "completed",
+      "rating": 4.8,
+      "views": 945000,
       "totalChapters": 1,
       "createdAt": "2026-04-01T10:00:00Z",
       "updatedAt": "2026-05-07T16:00:00Z"
@@ -155,9 +149,9 @@
       "chapterNumber": 1,
       "title": "Khởi Đầu — Sức Mạnh Thức Tỉnh",
       "pages": [
-        "assets/images/Chapters/HanhTrinhAnhHung/chap1.jpeg",
-        "assets/images/Chapters/HanhTrinhAnhHung/chap2.jpeg",
-        "assets/images/Chapters/HanhTrinhAnhHung/chap3.jpeg"
+        "assets/images/chapters/1/page1.jpg",
+        "assets/images/chapters/1/page2.jpg",
+        "assets/images/chapters/1/page3.jpg"
       ],
       "createdAt": "2026-01-20T10:00:00Z"
     },
@@ -167,9 +161,9 @@
       "chapterNumber": 2,
       "title": "Kẻ Thù Đầu Tiên",
       "pages": [
-         "assets/images/Chapters/HanhTrinhAnhHung/chap4.jpeg",
-        "assets/images/Chapters/HanhTrinhAnhHung/chap5.jpeg",
-        "assets/images/Chapters/HanhTrinhAnhHung/chap6.jpeg"
+        "assets/images/chapters/1/page4.jpg",
+        "assets/images/chapters/1/page5.jpg",
+        "assets/images/chapters/1/page6.jpg"
       ],
       "createdAt": "2026-02-01T10:00:00Z"
     },
@@ -179,8 +173,9 @@
       "chapterNumber": 3,
       "title": "Liên Minh Hình Thành",
       "pages": [
-        "assets/images/Chapters/HanhTrinhAnhHung/chap7.jpeg",
-        "assets/images/Chapters/HanhTrinhAnhHung/chap8.jpeg"
+        "assets/images/chapters/1/page7.jpg",
+        "assets/images/chapters/1/page8.jpg",
+        "assets/images/chapters/1/page9.jpg"
       ],
       "createdAt": "2026-03-01T10:00:00Z"
     },
@@ -190,8 +185,9 @@
       "chapterNumber": 1,
       "title": "Bóng Tối Giáng Lâm",
       "pages": [
-        "assets/images/Chapters/BongDemThanhPho/chap1.jpg",
-        "assets/images/Chapters/BongDemThanhPho/chap2.jpg"
+        "assets/images/chapters/2/page1.jpg",
+        "assets/images/chapters/2/page2.jpg",
+        "assets/images/chapters/2/page3.jpg"
       ],
       "createdAt": "2026-02-10T10:00:00Z"
     },
@@ -201,9 +197,8 @@
       "chapterNumber": 2,
       "title": "Kẻ Báo Thù",
       "pages": [
-        "assets/images/Chapters/BongDemThanhPho/chap3.jpg",
-        "assets/images/Chapters/BongDemThanhPho/chap4.jpg",
-        "assets/images/Chapters/BongDemThanhPho/chap5.jpg"
+        "assets/images/chapters/2/page4.jpg",
+        "assets/images/chapters/2/page5.jpg"
       ],
       "createdAt": "2026-03-05T10:00:00Z"
     },
@@ -211,10 +206,10 @@
       "id": 6,
       "comicId": 3,
       "chapterNumber": 1,
-      "title": "Ngày Nhập Học",
+      "title": "Bình Minh Phiêu Lưu",
       "pages": [
-        "assets/images/Chapters/TruongHocPhapThuat/chap1.jpg",
-        "assets/images/Chapters/TruongHocPhapThuat/chap2.jpg"
+        "assets/images/chapters/3/page1.jpg",
+        "assets/images/chapters/3/page2.jpg"
       ],
       "createdAt": "2026-01-25T10:00:00Z"
     },
@@ -222,10 +217,10 @@
       "id": 7,
       "comicId": 3,
       "chapterNumber": 2,
-      "title": "Bài Kiểm Tra Đầu Tiên",
+      "title": "Chàng Trai Mũ Rơm Luffy",
       "pages": [
-       "assets/images/Chapters/TruongHocPhapThuat/chap3.jpg",
-       "assets/images/Chapters/TruongHocPhapThuat/chap4.jpg"
+        "assets/images/chapters/3/page3.jpg",
+        "assets/images/chapters/3/page4.jpg"
       ],
       "createdAt": "2026-02-20T10:00:00Z"
     },
@@ -233,11 +228,11 @@
       "id": 8,
       "comicId": 4,
       "chapterNumber": 1,
-      "title": "Cánh Cổng Mở Ra",
+      "title": "Một Cú Đấm Tất Sát",
       "pages": [
-        "assets/images/Chapters/VuTruSongSong/chap1.jpg",
-        "assets/images/Chapters/VuTruSongSong/chap2.jpg",
-        "assets/images/Chapters/VuTruSongSong/chap3.jpg"
+        "assets/images/chapters/4/page1.jpeg",
+        "assets/images/chapters/4/page2.jpeg",
+        "assets/images/chapters/4/page3.jpeg"
       ],
       "createdAt": "2026-03-15T10:00:00Z"
     },
@@ -245,10 +240,10 @@
       "id": 9,
       "comicId": 5,
       "chapterNumber": 1,
-      "title": "Ngày Hè Đầu Tiên",
+      "title": "Uzumaki Naruto Xuất Hiện!",
       "pages": [
-        "assets/images/Chapters/TinhYeuMuaHa/chap1.jpg",
-         "assets/images/Chapters/TinhYeuMuaHa/chap2.jpg"
+        "assets/images/chapters/5/page1.jpg",
+        "assets/images/chapters/5/page2.jpg"
       ],
       "createdAt": "2026-02-20T10:00:00Z"
     },
@@ -256,10 +251,10 @@
       "id": 10,
       "comicId": 5,
       "chapterNumber": 2,
-      "title": "Hẹn Hò Dưới Mưa",
+      "title": "Đội 7 Thành Lập",
       "pages": [
-        "assets/images/Chapters/TinhYeuMuaHa/chap3.jpg",
-         "assets/images/Chapters/TinhYeuMuaHa/chap4.jpg"
+        "assets/images/chapters/5/page3.png",
+        "assets/images/chapters/5/page4.png"
       ],
       "createdAt": "2026-03-15T10:00:00Z"
     },
@@ -267,55 +262,13 @@
       "id": 11,
       "comicId": 6,
       "chapterNumber": 1,
-      "title": "Cuộc thi Genin",
+      "title": "Bulma và Son Goku",
       "pages": [
-        "assets/images/Chapters/Naruto/chap1.jpg",
-        "assets/images/Chapters/Naruto/chap2.jpg",
-        "assets/images/Chapters/Naruto/chap3.jpg"
+        "assets/images/chapters/6/page1.jpg",
+        "assets/images/chapters/6/page2.jpg",
+        "assets/images/chapters/6/page3.jpg"
       ],
       "createdAt": "2026-04-05T10:00:00Z"
-    }
-  ],
-  "genres": [
-    {
-      "id": "action",
-      "name": "Hành Động",
-      "slug": "action"
-    },
-    {
-      "id": "adventure",
-      "name": "Phiêu Lưu",
-      "slug": "adventure"
-    },
-    {
-      "id": "romance",
-      "name": "Lãng Mạn",
-      "slug": "romance"
-    },
-    {
-      "id": "comedy",
-      "name": "Hài Hước",
-      "slug": "comedy"
-    },
-    {
-      "id": "horror",
-      "name": "Kinh Dị",
-      "slug": "horror"
-    },
-    {
-      "id": "fantasy",
-      "name": "Giả Tưởng",
-      "slug": "fantasy"
-    },
-    {
-      "id": "sci-fi",
-      "name": "Khoa Học Viễn Tưởng",
-      "slug": "sci-fi"
-    },
-    {
-      "id": "slice-of-life",
-      "name": "Đời Thường",
-      "slug": "slice-of-life"
     }
   ],
   "bookmarks": [

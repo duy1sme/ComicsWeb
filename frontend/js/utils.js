@@ -139,31 +139,23 @@ function renderComicCard(comic, index = 0) {
     .map(g => `<span class="cw-genre-tag">${g}</span>`)
     .join('');
 
-  const isInPages = window.location.pathname.includes('/pages/');
-  const base = isInPages ? '../' : '';
-
   return `
     <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4 anim-slide-up anim-delay-${(index % 4) + 1}">
-      <a href="${base}pages/comic-detail.html?id=${comic.id}" class="text-decoration-none">
+      <a href="pages/comic-detail.html?id=${comic.id}" class="text-decoration-none">
         <div class="cw-comic-card">
           <div class="cw-comic-card__cover">
-            <img src="${base}${comic.coverImage}" alt="${comic.title}"
-                 onerror="this.src='${base}assets/images/placeholder.svg'">
+            <img src="${comic.coverImage}" alt="${comic.title}"
+                 onerror="this.src='assets/images/placeholder.svg'">
             ${statusBadge}
           </div>
-
           <div class="cw-comic-card__body">
             <h5 class="cw-comic-card__title">${comic.title}</h5>
-
             <p class="cw-comic-card__meta">
               <i class="bi bi-eye"></i> ${formatViews(comic.views)}
               &nbsp;·&nbsp;
               <i class="bi bi-book"></i> ${comic.totalChapters || '?'} chương
             </p>
-
-            <div class="cw-comic-card__genres">
-              ${genreTags}
-            </div>
+            <div class="cw-comic-card__genres">${genreTags}</div>
           </div>
         </div>
       </a>
