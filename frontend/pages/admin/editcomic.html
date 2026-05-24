@@ -1,266 +1,192 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
   <title>Sửa truyện — ComicsWeb</title>
-
-  <!-- Bootstrap -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
-
-  <!-- Bootstrap Icons -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-  />
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="../../css/style.css" />
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="../../css/style.css" rel="stylesheet">
 </head>
-
+ 
 <body>
-
-  <!-- Navbar -->
+ 
   <div id="navbar"></div>
-
-  <main class="container py-5">
-
-    <!-- Tiêu đề -->
-    <div class="d-flex align-items-center mb-4">
-      <div
-        style="
-          width: 5px;
-          height: 45px;
-          background: #ff1e1e;
-          margin-right: 15px;
-          border-radius: 10px;
-        "
-      ></div>
-
-      <h1
-        style="
-          color: white;
-          font-weight: 800;
-          text-transform: uppercase;
-          margin: 0;
-        "
-      >
-        <i class="bi bi-pencil-square"></i>
-        SỬA THÔNG TIN TRUYỆN
-      </h1>
-    </div>
-
-    <!-- Form -->
-    <div
-      class="p-4 p-lg-5 rounded-4"
-      style="
-        background: #111;
-        border: 1px solid rgba(255,255,255,0.08);
-      "
-    >
-
+ 
+  <main class="container py-4">
+ 
+    <h2 class="cw-section__title mb-4">
+      <i class="bi bi-pencil-square"></i>
+      Sửa thông tin truyện
+    </h2>
+ 
+    <section class="cw-add-comic-card">
+ 
       <form id="edit-comic-form">
-
-        <div class="row">
-
-          <!-- ID -->
-          <div class="col-md-6 mb-4">
-            <label
-              class="form-label fw-bold"
-              style="color: white;"
-            >
-              ID
-            </label>
-
-            <input
-              type="number"
-              id="comic-id"
-              class="form-control"
-             
-              style="
-                background: #1b1f26;
-                color: white;
-                border: 1px solid #444;
-                height: 50px;
-              "
-            />
+ 
+        <div class="row g-4">
+ 
+          <!-- ID truyện -->
+          <div class="col-md-6">
+            <label class="cw-form-label" for="comic-id">ID truyện</label>
+ 
+            <div class="cw-auto-id-box">
+              <div>
+                <span class="cw-auto-id-box__title">
+                  <i class="bi bi-hash"></i>
+                  ID hiện tại
+                </span>
+ 
+                <input
+                  type="number"
+                  id="comic-id"
+                  class="cw-auto-id-input"
+                  readonly>
+              </div>
+            </div>
           </div>
-
+ 
           <!-- Tên truyện -->
-          <div class="col-md-6 mb-4">
-            <label
-              class="form-label fw-bold"
-              style="color: white;"
-            >
-              Tên truyện
-            </label>
-
+          <div class="col-md-6">
+            <label class="cw-form-label" for="comic-title">Tên truyện</label>
+ 
             <input
               type="text"
+              class="cw-form-input"
               id="comic-title"
-              class="form-control"
-              required
-              style="
-                background: #1b1f26;
-                color: white;
-                border: 1px solid #444;
-                height: 50px;
-              "
-            />
+              placeholder="Nhập tên truyện">
           </div>
-
+ 
           <!-- Tác giả -->
-          <div class="col-md-6 mb-4">
-            <label
-              class="form-label fw-bold"
-              style="color: white;"
-            >
-              Tác giả
-            </label>
-
+          <div class="col-md-6">
+            <label class="cw-form-label" for="comic-author">Tác giả</label>
+ 
             <input
               type="text"
+              class="cw-form-input"
               id="comic-author"
-              class="form-control"
-              required
-              style="
-                background: #1b1f26;
-                color: white;
-                border: 1px solid #444;
-                height: 50px;
-              "
-            />
+              placeholder="Nhập tên tác giả">
           </div>
-
+ 
           <!-- Artist -->
-          <div class="col-md-6 mb-4">
-            <label
-              class="form-label fw-bold"
-              style="color: white;"
-            >
-              Artist
-            </label>
-
+          <div class="col-md-6">
+            <label class="cw-form-label" for="comic-artist">Artist</label>
+ 
             <input
               type="text"
+              class="cw-form-input"
               id="comic-artist"
-              class="form-control"
-              required
-              style="
-                background: #1b1f26;
-                color: white;
-                border: 1px solid #444;
-                height: 50px;
-              "
-            />
+              placeholder="Nhập tên artist">
           </div>
-
+ 
+          <!-- Ảnh bìa hiện tại -->
+          <div class="col-md-6">
+            <label class="cw-form-label">Ảnh bìa hiện tại</label>
+ 
+            <div class="cw-cover-preview">
+              <img
+                id="comic-cover-preview"
+                src="../../assets/images/default-cover.jpg"
+                alt="Ảnh bìa truyện">
+ 
+              <div class="cw-cover-preview__info">
+                <span>Ảnh bìa truyện</span>
+                <small>Có thể upload ảnh mới bên dưới</small>
+              </div>
+            </div>
+          </div>
+ 
+          <!-- Upload ảnh bìa -->
+          <div class="col-md-6">
+            <label class="cw-form-label" for="comic-cover">Upload ảnh bìa mới</label>
+ 
+            <label class="cw-upload-box" for="comic-cover">
+              <i class="bi bi-image"></i>
+              <span>Chọn ảnh bìa mới</span>
+              <small>PNG, JPG, WEBP</small>
+            </label>
+ 
+            <input
+              type="file"
+              id="comic-cover"
+              class="cw-upload-input"
+              accept="image/*">
+          </div>
+ 
+          <!-- Upload chap -->
+          <div class="col-md-12">
+            <label class="cw-form-label" for="comic-chapters">Upload chap của truyện</label>
+ 
+            <label class="cw-upload-box cw-upload-box--wide" for="comic-chapters">
+              <i class="bi bi-file-earmark-zip"></i>
+              <span>Upload chap truyện</span>
+              <small>Có thể chọn nhiều file ảnh hoặc file nén .zip, .rar, .7z</small>
+            </label>
+ 
+            <input
+              type="file"
+              id="comic-chapters"
+              class="cw-upload-input"
+              multiple
+              accept="image/*,.zip,.rar,.7z">
+          </div>
+ 
           <!-- Mô tả -->
-          <div class="col-12 mb-4">
-            <label
-              class="form-label fw-bold"
-              style="color: white;"
-            >
-              Mô tả
-            </label>
-
+          <div class="col-md-12">
+            <label class="cw-form-label" for="comic-description">Mô tả</label>
+ 
             <textarea
+              class="cw-form-input cw-form-textarea"
               id="comic-description"
-              rows="7"
-              class="form-control"
-              style="
-                background: #1b1f26;
-                color: white;
-                border: 1px solid #444;
-              "
-            ></textarea>
+              rows="6"
+              placeholder="Nhập mô tả nội dung truyện"></textarea>
           </div>
-
+ 
           <!-- Thể loại -->
-          <div class="col-12 mb-4">
-            <label
-              class="form-label fw-bold"
-              style="color: white;"
-            >
-              Thể loại (cách nhau bởi dấu phẩy)
+          <div class="col-md-12">
+            <label class="cw-form-label" for="comic-genres">
+              Thể loại
             </label>
-
+ 
             <input
               type="text"
+              class="cw-form-input"
               id="comic-genres"
-              class="form-control"
-              style="
-                background: #1b1f26;
-                color: white;
-                border: 1px solid #444;
-                height: 50px;
-              "
-            />
+              placeholder="Action, Fantasy, Adventure">
           </div>
-
+ 
         </div>
-
-        <!-- Buttons -->
-        <div class="d-flex gap-3 mt-2">
-
-          <!-- Lưu -->
-          <button
-            type="submit"
-            class="btn"
-            style="
-              background: #ff1e1e;
-              color: white;
-              font-weight: 700;
-              padding: 14px 30px;
-              border-radius: 14px;
-              border: none;
-            "
-          >
+ 
+        <div class="d-flex flex-wrap gap-3 mt-4">
+ 
+          <button type="button" class="btn btn-cw-primary">
             <i class="bi bi-check-lg"></i>
-            LƯU THAY ĐỔI
+            Lưu thay đổi
           </button>
-
-          <!-- Quay lại -->
-          <a
-            href="dashboard.html"
-            class="btn"
-            style="
-              background: transparent;
-              color: white;
-              border: 1px solid white;
-              padding: 14px 28px;
-              border-radius: 14px;
-              font-weight: 600;
-            "
-          >
+ 
+          <a href="dashboard.html" class="btn btn-cw-outline">
+            <i class="bi bi-arrow-left"></i>
             Quay lại
           </a>
-
+ 
         </div>
-
+ 
       </form>
-
-    </div>
-
+ 
+    </section>
+ 
   </main>
-
-  <!-- Footer -->
+ 
   <div id="footer"></div>
-
-  <!-- JS -->
+ 
   <script src="../../js/config.js"></script>
   <script src="../../js/utils.js"></script>
   <script src="../../js/auth.js"></script>
   <script src="../../js/api.js"></script>
   <script src="../../js/components.js"></script>
   <script src="../../js/editcomic.js"></script>
-
-  <!-- Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+ 
 </body>
 </html>
