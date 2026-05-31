@@ -45,6 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
       rating: 5,
       views: 0,
       totalChapters: chapterFiles.length > 0 ? 1 : 0,
+      approved: true,        // Admin thêm thì tự động duyệt
+      uploaderId: null,
       createdAt: now,
       updatedAt: now,
     };
